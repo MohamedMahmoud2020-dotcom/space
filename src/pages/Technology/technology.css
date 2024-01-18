@@ -1,0 +1,104 @@
+.tech-container{
+    background-image: url("../../../public/assets/technology/background-technology-desktop.jpg");
+    min-height: 100vh;
+    font-family: 'Instrument Serif', serif;
+    position: relative;
+}
+
+.tech-container h3{
+    padding: 2rem 9rem;
+    color: white;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.25rem;
+}
+
+.tech-container h3 span{
+    opacity: 0.5;
+    margin-right: 0.2rem;
+}
+.circles{
+    position: absolute;
+    left: 8rem;
+    bottom: 150px;
+}
+.circles .circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:transparent;
+    border: 1px solid grey;
+    margin-top: 3rem;
+}
+.technology-rest{
+    display: flex;
+    color: white;
+}
+
+.technology-rest-left{
+    flex: 60%;
+    margin-left: auto;
+    padding: 2rem 8rem 0 16rem;
+}
+
+.technology-rest-right{
+    flex: 40%;
+    height: 500px;
+    padding: 0 0 3rem 0;
+    display: flex;
+    justify-content: end;
+}
+
+.technology-rest-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.technology-rest-left h4{
+    letter-spacing: 0.25rem;
+    opacity: 0.7;
+}
+
+.technology-rest-left h1{
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.technology-rest-left p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 600px) { 
+    .technology-rest{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .tech-container h3{
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .technology-rest-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 4rem;
+    }
+    .technology-rest-left h1{
+        text-align: center;
+    }
+    .technology-rest-left p{
+        text-align: center;
+    }
+    .circles{
+        display: flex;
+        gap: 5rem;
+        top: 150px;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+}

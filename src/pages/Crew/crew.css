@@ -1,0 +1,104 @@
+.crew-container{
+    background-image: url("../../../public/assets/crew/background-crew-desktop.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    font-family: 'Instrument Serif', serif;
+}
+
+.crew-container >h1{
+    padding-left: 9rem;
+    color: white;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
+}
+
+.crew-container h1 span{
+    opacity: 0.3;
+    margin-right: 0.5rem;
+}
+
+.crew-rest{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    padding: 2rem 2rem 0 9rem;
+}
+.crew-item{
+    display: flex;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.crew-rest-right{
+    flex: 1;
+    color: white;
+}
+
+.crew-rest-left{
+    flex: 2;
+}
+
+.crew-rest-right h1{
+    margin: 0.5rem 0 2rem 0;
+    font-size: 3.5rem;
+}
+.crew-rest-right h3{
+    opacity: 0.7;
+}
+.crew-rest-right p{
+    opacity: 0.7;
+}
+.crew-item img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+
+.slides {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    left: 9rem;
+}
+.slides .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) { 
+    .crew-item{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .crew-container >h1{
+        padding: 0;
+        text-align: center;
+    }
+    .crew-rest-right h1, .crew-rest-right h3, .crew-rest-right p{
+        text-align: center;
+    }
+    .crew-rest{
+        padding: 0;
+    }
+    .crew-rest-right{
+        padding: 0 3rem;
+    }
+    .slides{
+        top: 200px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,114 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 2rem;
+    align-items: center;
+    position: relative;
+}
+
+.rest-nav{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 7rem;
+    height: 5rem;
+    background: rgb(19,21,34);
+    background: linear-gradient(90deg, rgba(19,21,34,1) 14%, rgba(88,98,123,1) 50%, rgba(26,39,71,1) 100%);
+}
+
+.rest-nav div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rest-nav div a{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav hr{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 150px;
+    opacity: 0.4;
+}
+
+.mobile-icon{
+    display: none;
+}
+
+.rest-nav1{
+    position: absolute;
+    padding: 0;
+    display: none;
+    width: 100%;
+    left: 0;
+    top:0;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    background: rgb(19,21,34);
+    background: linear-gradient(90deg, rgba(19,21,34,1) 14%, rgba(88,98,123,1) 50%, rgba(26,39,71,1) 100%);
+}
+
+
+.rest-nav1 div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rest-nav1 div a{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) { 
+    nav{
+        padding: 2rem;
+    } 
+    nav hr{
+        position: relative;
+        display: none;
+    }
+    .rest-nav{
+        position: absolute;
+        padding: 0;
+        display: none;
+        height: 250px;  
+        width: 100%;
+        left: 0;
+        top:0;
+        z-index: 1;
+        flex-direction: column;
+    }    
+    .mobile-icon{
+        cursor: pointer;
+        z-index: 1;
+        display: block;
+        position: relative;
+    }
+    .rest-nav1{
+        display: flex;
+    }   
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+    nav hr{
+        display: none;
+    }
+    .rest-nav{
+        width: 50%;
+        padding: 0 3rem;
+    }
+ }

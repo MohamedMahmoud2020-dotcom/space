@@ -1,0 +1,125 @@
+.destination-container{
+    background-image: url("../../../public/assets/destination/background-destination-desktop.jpg");
+    min-height: 100vh;
+    font-family: 'Instrument Serif', serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.destination-container h3{
+    padding: 2rem 9rem;
+    color: white;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.25rem;
+}
+
+.destination-container h3 span{
+    opacity: 0.5;
+    margin-right: 0.2rem;
+}
+
+.space-components{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 19rem;
+}
+
+.space-components a{
+    color: white;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.rest-destination{
+    display: flex;
+    gap: 5rem;
+}
+
+.left-destination{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding-right: 7rem;
+}
+
+.left-destination img{
+    width: 300px;
+    object-fit: contain;
+}
+
+.right-destination{
+    flex:1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.right-destination h1{
+    font-size: 7rem;
+    color: white;
+}
+
+.right-destination p{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    padding-right: 7rem;
+}
+
+.rest-destination hr{
+    margin: 0 7rem 1rem 0;
+}
+
+.right-rest{
+    display: flex;
+}
+.right-rest p{
+    margin: 0;
+}
+.right-rest h3{
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 1119px) { 
+    .destination-container h3{
+        padding: 2rem;
+        text-align: center;
+    }
+    .rest-destination{
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+    .right-destination{
+        align-items: center;
+    }
+    .right-destination p{
+        padding: 0 2rem;
+    }
+    .space-components{
+        width: 100%;
+        padding: 0 5rem;
+        margin-bottom: 1rem;
+    }
+    .right-rest{
+        gap: 2rem;
+    }
+    .right-rest p{
+        padding: 0;
+    }
+    .right-rest h3{
+        padding: 0;
+    }
+    .left-destination{
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+ }
