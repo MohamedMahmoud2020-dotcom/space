@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fa65258.css",
+    "main.js": "/static/js/main.79e40ad2.js",
+    "static/media/background-home-desktop.jpg": "/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/background-crew-desktop.jpg": "/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-technology-desktop.jpg": "/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "index.html": "/index.html",
+    "main.6fa65258.css.map": "/static/css/main.6fa65258.css.map",
+    "main.79e40ad2.js.map": "/static/js/main.79e40ad2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fa65258.css",
+    "static/js/main.79e40ad2.js"
+  ]
+}
